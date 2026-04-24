@@ -1,0 +1,75 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+
+
+html, body, [class*="css"] {
+
+    font-family: 'Inter', sans-serif;
+
+    background-color: #0a0e17;
+
+}
+
+
+
+/* Glassmorphism for a tidy look */
+
+div[data-testid="stColumn"], .stMetric, .stTable {
+
+    background: rgba(255, 255, 255, 0.02);
+
+    border: 1px solid rgba(255, 255, 255, 0.05);
+
+    border-radius: 12px;
+
+    padding: 20px;
+
+}
+
+
+
+/* Functional Action Buttons */
+
+.stButton>button {
+
+    width: 100%;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+}
+
+
+
+/* Indicators */
+
+.status-indicator {
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+
+    border: 1px solid;
+
+}
+
+
+
+.status-green { background: rgba(0, 255, 127, 0.1); color: #00ff7f; border-color: #00ff7f; }
+
+.status-yellow { background: rgba(255, 215, 0, 0.1); color: #ffd700; border-color: #ffd700; }
+
+.status-red { background: rgba(255, 69, 0, 0.1); color: #ff4500; border-color: #ff4500; }
