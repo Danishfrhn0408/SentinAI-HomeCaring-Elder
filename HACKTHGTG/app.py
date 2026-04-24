@@ -37,10 +37,10 @@ with col_vid:
     if st.button("🔄 INITIATE AGENT PATROL", use_container_width=True):
         # Senarai pangkalan data video rawak awak
         scenarios = [
-            {"video": "tidur.mp4", "event": "sleeping_peacefully", "danger": False, "conf": "96%", "rec": "Patient is resting. Maintain a quiet environment and dim the lights."},
-            {"video": "baca.mp4", "event": "reading_a_book", "danger": False, "conf": "94%", "rec": "Patient is engaging in cognitive activity. Ensure proper room lighting."},
-            {"video": "berborak.mp4", "event": "chatting_with_friends", "danger": False, "conf": "92%", "rec": "Social interaction detected. Excellent for mental well-being."},
-            {"video": "demo_jatuh.mp4", "event": "fall_detected", "danger": True, "conf": "99%", "rec": "CRITICAL ACTION TAKEN: Alerting family and dispatching emergency unit."}
+            {"video": "HACKTHGTG/tidur.mp4", "event": "sleeping_peacefully", "danger": False, "conf": "96%", "rec": "Patient is resting. Maintain a quiet environment and dim the lights."},
+            {"video": "HACKTHGTG/baca.mp4", "event": "reading_a_book", "danger": False, "conf": "94%", "rec": "Patient is engaging in cognitive activity. Ensure proper room lighting."},
+            {"video": "HACKTHGTG/berborak.mp4", "event": "chatting_with_friends", "danger": False, "conf": "92%", "rec": "Social interaction detected. Excellent for mental well-being."},
+            {"video": "HACKTHGTG/demo_jatuh.mp4", "event": "fall_detected", "danger": True, "conf": "99%", "rec": "CRITICAL ACTION TAKEN: Alerting family and dispatching emergency unit."}
         ]
         
         current = random.choice(scenarios)
